@@ -1,7 +1,8 @@
 Output variable descriptions:
+
 subject_id: 1 to 30, representing 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 activity_name: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING
-the other variables represent the mean of either mean or standard deviation of the following measurements:
+the other variables represent the mean of either mean or standard deviation (Real numbers) of the following measurements:
 tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
@@ -29,5 +30,3 @@ tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ record the body linear acceleration and a
 fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag record the result of applying a Fast Fourier Transform (FFT) to some of these signals. (Note the 'f' to indicate frequency domain signals). 
 
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-
-
