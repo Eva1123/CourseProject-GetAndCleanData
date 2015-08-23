@@ -1,9 +1,29 @@
 # CourseProject-GetAndCleanData
 The purpose of this project is to to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 
-The input data come from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones, which were built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. The detailed description of this input data set can be found at the above link.
+The input data come from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones, which were built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. 
 
-Here is a list of cleaning steps we have applied to the original data set in order to get our final tidy data set:
+The original dataset included the following data files:
+=======================================================
+- 'features.txt': List of all measurements.
+
+- 'activity_labels.txt': List of class labels and their activity name.
+
+- 'train/X_train.txt': Training set.
+
+- 'train/y_train.txt': Training labels.
+
+- 'train/subject_train.txt': ID's of subjects in the training data
+
+- 'test/X_test.txt': Test set.
+
+- 'test/y_test.txt': Test labels.
+
+- 'test/subject_test.txt': ID's of subjects in the test data
+
+
+Here is a list of cleaning steps applied:
+=========================================
 Step 1. merges the training and the test sets to create one data set.
 Step 2. extracts only the measurements on the mean and standard deviation for each measurement. 
 Step 3. uses descriptive activity names to name the activities in the data set
