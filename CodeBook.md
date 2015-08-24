@@ -1,8 +1,10 @@
 Output variable descriptions:
 
 subject_id: 1 to 30, representing 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+
 activity_name: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING
-the other variables represent the mean of either mean or standard deviation (Real numbers) of the following measurements:
+
+The other variables represent the mean of either mean or standard deviation (Real numbers) of the following measurements:
 tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
