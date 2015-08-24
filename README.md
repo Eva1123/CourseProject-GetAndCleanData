@@ -25,12 +25,60 @@ The original dataset included the following data files:
 Here is a list of cleaning steps applied:
 =========================================
 Step 1. merges the training and the test sets to create one data set.
+
 Step 2. extracts only the measurements on the mean and standard deviation for each measurement. 
-Step 3. uses descriptive activity names to name the activities in the data set
+
+Step 3. uses descriptive activity names to name the activities in the data set.
+
 Step 4. appropriately labels the data set with descriptive variable names. 
+
 Step 5. from the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The final data set contains subject id, activity name, and the mean of each variable (i.e.the mean or standard deviation for each measurement) for each activiy name and each subject.
+
+tBodyAcc-XYZ
+
+tGravityAcc-XYZ
+
+tBodyAccJerk-XYZ
+
+tBodyGyro-XYZ
+
+tBodyGyroJerk-XYZ
+
+tBodyAccMag
+
+tGravityAccMag
+
+tBodyAccJerkMag
+
+tBodyGyroMag
+
+tBodyGyroJerkMag
+
+fBodyAcc-XYZ
+
+fBodyAccJerk-XYZ
+
+fBodyGyro-XYZ
+
+fBodyAccMag
+
+fBodyAccJerkMag
+
+fBodyGyroMag
+
+fBodyGyroJerkMag
+
+where tAcc-XYZ and tGyro-XYZ record the accelerometer and gyroscope 3-axial raw signals. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+
+tBodyAcc-XYZ and tGravityAcc-XYZ record the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
+
+tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ record the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag record the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+
+fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag record the result of applying a Fast Fourier Transform (FFT) to some of these signals. (Note the 'f' to indicate frequency domain signals).
+
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 License:
 ========
